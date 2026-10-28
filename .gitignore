@@ -1,0 +1,52 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs & Process Outputs
+*.log
+logs/
+*.out
+nohup.out
+backend/nohup.out
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+local_settings.py
+
+# Credentials & Sensitive files
+login.json
+backend/login.json
+.env
+.env.*
+!.env.example
+
+# Temporary Scratch & Artifacts
+scratch/
+artifacts/
+*.pdf
+backend/unmatched_offices_list.txt
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.sw?
